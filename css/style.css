@@ -176,6 +176,19 @@ a:hover {
 	color: #45668e;
 }
 
+
+.about.blue {
+	background-color: #45668e;
+
+}
+
+.about.blue .w3ls-about-left h2,
+.about.blue .w3ls-about-left h6,
+.about.blue .w3ls-about-left p,
+.about.blue .w3ls-about-left ul {
+	color: white !important;
+}
+
 .agileinfo-dot,
 .agile-dot {
 	/*background: url(../images/dott.png)repeat 0px 0px;
@@ -313,7 +326,7 @@ ul.nav.navbar-nav li.active a {
 .w3-button {
 	margin: 4em auto 0;
 	text-align: center;
-	width: 22%;
+	width: 24%;
 }
 
 .w3ls-button {
@@ -335,6 +348,23 @@ ul.nav.navbar-nav li.active a {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+.blue .w3ls-about-left a {
+	text-decoration: none;
+	padding: .4em 1.8em;
+	background: #fff;
+	text-align: center;
+	border: solid 1px #fff;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #2B4F81;
+}
+
+.blue .w3ls-button a:hover {
+	background: none;
+	border: solid 1px #ffffff;
+	color: #ffffff;
 }
 
 .w3l-button a {
@@ -616,6 +646,10 @@ ul.nav.navbar-nav li.active a {
 	transition-property: color;
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
+}
+
+.blue .hvr-shutter-out-vertical:before {
+	background: rgba(69, 102, 142, 0.4);
 }
 
 .hvr-shutter-out-vertical:before {
