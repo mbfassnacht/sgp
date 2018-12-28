@@ -75,7 +75,8 @@ a:hover {
 /*-- banner --*/
 
 .banner {
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../images/1.png) no-repeat 0px 0px;
+	background-color: #2B4F81;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -182,10 +183,34 @@ a:hover {
 
 }
 
+.about.legal {
+	background: url(../images/legal.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+
+.about.notary {
+	background: url(../images/notary.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.notary-grid {
+	display: flex;
+}
+
 .about.blue .w3ls-about-left h2,
 .about.blue .w3ls-about-left h6,
 .about.blue .w3ls-about-left p,
-.about.blue .w3ls-about-left ul {
+.about.blue .w3ls-about-left ul,
+.about.legal .w3ls-about-left h2,
+.about.legal .w3ls-about-left h6,
+.about.legal .w3ls-about-left p,
+.about.legal .w3ls-about-left ul {
 	color: white !important;
 }
 
@@ -769,13 +794,25 @@ ul.nav.navbar-nav li.active a {
 	font-weight: 600;
 }
 
-/* END INSURANCE PART */
+/* ACCOUNTANT PART */
+.areas-container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.areas-container .area {
+	width: calc(50% - 40px);
+	margin: 20px;
+}
+/* END ACCOUNTANT PART */
+
+
 
 .w3l-about-grids {
 	margin: 4em 0 0 0;
 }
 
-.w3l-about-grids .fa {
+.insurance .w3l-about-grids .fa {
 	color: white !important;
 }
 
