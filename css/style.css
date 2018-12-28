@@ -76,7 +76,7 @@ a:hover {
 
 .banner {
 	background: url(../images/1.png) no-repeat 0px 0px;
-	background-color: #2B4F81;
+	background-color: black;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -1243,7 +1243,7 @@ i.fa.fa-paper-plane {
 }
 
 #team {
-	background: #00acee;
+	background: #2B4F81;
 }
 
 
