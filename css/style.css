@@ -1179,7 +1179,9 @@ i.fa.fa-paper-plane {
 	text-align: center;
 }
 
-.w3l-social ul li a i.fa.fa-facebook {
+.w3l-social ul li a i.fa.fa-facebook,
+.w3l-social ul li a i.fa.fa-linkedin,
+.w3l-social ul li a i.fa.fa-instagram {
 	height: 32px;
 	width: 32px;
 	line-height: 32px;
@@ -1192,7 +1194,9 @@ i.fa.fa-paper-plane {
 	-ms-transition: 0.5s all;
 }
 
-.w3l-social ul li a i.fa.fa-facebook:hover {
+.w3l-social ul li a i.fa.fa-facebook:hover,
+.w3l-social ul li a i.fa.fa-linkedin:hover,
+.w3l-social ul li a i.fa.fa-instagram:hover {
 	height: 32px;
 	width: 32px;
 	line-height: 32px;
@@ -1200,47 +1204,6 @@ i.fa.fa-paper-plane {
 	color: #FFFFFF;
 }
 
-.w3l-social ul li a i.fa.fa-twitter {
-	height: 32px;
-	width: 32px;
-	line-height: 32px;
-	background: #FFFFFF;
-	color: #1da1f2;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
-
-.w3l-social ul li a i.fa.fa-twitter:hover {
-	height: 32px;
-	width: 32px;
-	line-height: 32px;
-	background: #1da1f2;
-	color: #FFFFFF;
-}
-
-.w3l-social ul li a i.fa.fa-rss {
-	height: 32px;
-	width: 32px;
-	line-height: 32px;
-	background: #FFFFFF;
-	color: #f26522;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
-
-.w3l-social ul li a i.fa.fa-rss:hover {
-	height: 32px;
-	width: 32px;
-	line-height: 32px;
-	background: #f26522;
-	color: #FFFFFF;
-}
 
 #team {
 	background: #2B4F81;
