@@ -76,7 +76,7 @@ a:hover {
 
 .banner {
 	background: url(../images/1.png) no-repeat 0px 0px;
-	background-color: black;
+	background-color: #0f0f10;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
