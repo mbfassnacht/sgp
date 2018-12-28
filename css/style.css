@@ -711,7 +711,7 @@ ul.nav.navbar-nav li.active a {
 
 .w3ls-about-left h2,
 .about-heading h3,
-.about-heading.two h3,
+.about-heading.insurance h3,
 .free_consultation_agile h4 {
 	color: #212121;
 	margin: 0;
@@ -727,7 +727,7 @@ ul.nav.navbar-nav li.active a {
 	line-height: 1.5em;
 }
 
-.about-heading.two h3 {
+.about-heading.insurance h3 {
 	color: #fff;
 }
 
@@ -747,9 +747,21 @@ ul.nav.navbar-nav li.active a {
 	margin-bottom: 2em;
 }
 
-.about-heading p,
-.about-heading.two p {
-	color: #505050;
+/* INSURANCE PART */
+.insurance .w3l-about-grids {
+	margin: 0;
+}
+
+.insurance .about-heading h3 {
+	color: white;
+}
+
+.insurance i.fa {
+	font-size: 1.5em;
+}
+
+.insurance p {
+	color: white;
 	font-size: .7em;
 	margin: 1em 0 0 0;
 	letter-spacing: 3px;
@@ -757,12 +769,14 @@ ul.nav.navbar-nav li.active a {
 	font-weight: 600;
 }
 
-.about-heading.two p {
-	color: #2B4F81;
-}
+/* END INSURANCE PART */
 
 .w3l-about-grids {
 	margin: 4em 0 0 0;
+}
+
+.w3l-about-grids .fa {
+	color: white !important;
 }
 
 .icon-left {
@@ -797,6 +811,7 @@ i.fa.fa-paper-plane {
 	letter-spacing: 1px;
 	text-shadow: 0 0 black;
 	text-align: left;
+	line-height: 60px;
 }
 
 .icon-right p {
@@ -806,11 +821,6 @@ i.fa.fa-paper-plane {
 	margin: 0;
 	text-align: left;
 }
-
-.agileits-icon-grid:nth-child(2) {
-	margin: 2em 0;
-}
-
 
 /* Radial Out */
 
@@ -881,7 +891,7 @@ i.fa.fa-paper-plane {
 }
 
 .w3ls-about-right-img {
-	background: url(../images/why.jpg) no-repeat 0px 0px;
+	/* background: url(../images/why.jpg) no-repeat 0px 0px; */
 	background-size: cover;
 	min-height: 450px;
 }
@@ -890,6 +900,12 @@ i.fa.fa-paper-plane {
 	margin-top: 4em;
 }
 
+
+.insurance-type-title {
+	text-align: left;
+    color: white;
+    margin-bottom: 30px;
+}
 
 /*-- //about --*/
 
@@ -1649,7 +1665,7 @@ ul.tag2:last-child {
 		height: 185px;
 	}
 	.about-heading h3,
-	.about-heading.two h3,
+	.about-heading.insurance h3,
 	.free_consultation_agile h4 {
 		font-size: 2.5em;
 	}
@@ -1798,7 +1814,7 @@ ul.tag2:last-child {
 		padding: 5em 2em;
 	}
 	.about-heading h3,
-	.about-heading.two h3,
+	.about-heading.insurance h3,
 	.free_consultation_agile h4 {
 		font-size: 2.3em;
 	}
@@ -1871,7 +1887,7 @@ ul.tag2:last-child {
 		padding: 5em 2em;
 	}
 	.about-heading h3,
-	.about-heading.two h3,
+	.about-heading.insurance h3,
 	.free_consultation_agile h4 {
 		font-size: 2.3em;
 	}
@@ -2211,7 +2227,7 @@ ul.tag2:last-child {
 		width: 186px;
 	}
 	.about-heading h3,
-	.about-heading.two h3,
+	.about-heading.insurance h3,
 	.free_consultation_agile h4 {
 		font-size: 2em;
 	}
@@ -2477,7 +2493,7 @@ ul.tag2:last-child {
 		height: 184px;
 	}
 	.about-heading h3,
-	.about-heading.two h3,
+	.about-heading.insurance h3,
 	.free_consultation_agile h4 {
 		font-size: 1.8em;
 	}
@@ -2496,7 +2512,7 @@ ul.tag2:last-child {
 		letter-spacing: 2px;
 	}
 	.about-heading p,
-	.about-heading.two p {
+	.about-heading.insurance p {
 		letter-spacing: 2px;
 	}
 }
@@ -2578,7 +2594,7 @@ ul.tag2:last-child {
 		top: 78%;
 	}
 	.about-heading h3,
-	.about-heading.two h3,
+	.about-heading.insurance h3,
 	.free_consultation_agile h4 {
 		font-size: 1.6em;
 		letter-spacing: 1px;
