@@ -13,14 +13,10 @@ body a {
 	-ms-transition: 0.5s all;
 }
 
-.logo {
-	width: 300px;
-}
-
 html,
 body {
 	font-size: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Thasadith', sans-serif;
 }
 
 body {
@@ -32,10 +28,6 @@ p {
 	letter-spacing: 1px;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-}
 
 p,
 ul,
@@ -351,15 +343,7 @@ ul.nav.navbar-nav li.active a {
 .w3-button {
 	margin: 4em auto 0;
 	text-align: center;
-	width: 24%;
-}
-
-.w3ls-button {
-	float: left;
-}
-
-.w3l-button {
-	float: right;
+	width: 290px;
 }
 
 .w3ls-button a,
@@ -800,10 +784,6 @@ ul.nav.navbar-nav li.active a {
 	flex-wrap: wrap;
 
 }
-.areas-container .area {
-	width: calc(50% - 40px);
-	margin: 20px;
-}
 /* END ACCOUNTANT PART */
 
 
@@ -848,7 +828,6 @@ i.fa.fa-paper-plane {
 	letter-spacing: 1px;
 	text-shadow: 0 0 black;
 	text-align: left;
-	line-height: 60px;
 }
 
 .icon-right p {
@@ -1121,6 +1100,7 @@ i.fa.fa-paper-plane {
 .agileinfo-team-grid {
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .agileinfo-team-grid img {
@@ -1725,9 +1705,7 @@ ul.tag2:last-child {
 	.agileits-banner-info {
 		margin: 10em 0;
 	}
-	.w3-button {
-		width: 27%;
-	}
+
 	.icon-left {
 		margin-right: .5em;
 	}
@@ -1933,9 +1911,7 @@ ul.tag2:last-child {
 	.styled-input {
 		width: 48%;
 	}
-	.w3-button {
-		width: 36%;
-	}
+
 	.agileits-banner-info h3 {
 		font-size: 3.7em;
 		letter-spacing: 10px;
@@ -1965,6 +1941,8 @@ ul.tag2:last-child {
 	}
 	.w3ls-about-why-us-agile {
 		margin-top: 2em;
+		display: flex;
+    	flex-wrap: wrap;
 	}
 	.w3-agileits-services-left {
 		width: 80%;
@@ -2068,9 +2046,7 @@ ul.tag2:last-child {
 	ul.nav.navbar-nav li a {
 		margin: 1em 0;
 	}
-	.w3-button {
-		width: 33%;
-	}
+
 	.navbar-toggle {
 		margin-top: 16px;
 	}
@@ -2138,9 +2114,7 @@ ul.tag2:last-child {
 }
 
 @media(max-width:667px) {
-	.w3-button {
-		width: 39%;
-	}
+
 	.g-captn {
 		width: 290px;
 		height: 175px;
@@ -2179,9 +2153,6 @@ ul.tag2:last-child {
 }
 
 @media(max-width:600px) {
-	.w3-button {
-		width: 45%;
-	}
 	.callbacks_nav {
 		bottom: 185px;
 	}
@@ -2263,9 +2234,6 @@ ul.tag2:last-child {
 		background: transparent url(../images/arrows.png) no-repeat left top;
 		background-size: 206%;
 	}
-	.w3-button {
-		width: 54%;
-	}
 	.g-captn h4 {
 		margin: .5em 0 0 0;
 	}
@@ -2325,6 +2293,7 @@ ul.tag2:last-child {
 	}
 	.agileits-icon-grid {
 		text-align: center;
+		width: 50%;
 	}
 	.w3-agileits-services-left {
 		width: 90%;
@@ -2344,9 +2313,7 @@ ul.tag2:last-child {
 		float: none;
 		width: 100%;
 	}
-	.agileinfo-team-grid:nth-child(1),
-	.agileinfo-team-grid:nth-child(2),
-	.agileinfo-team-grid:nth-child(3) {
+	.agileinfo-team-grid {
 		margin: 0 0 1em 0;
 	}
 	.g-captn {
@@ -2370,9 +2337,6 @@ ul.tag2:last-child {
 	}
 	.agileinfo-offer-grid p {
 		width: 100%;
-	}
-	.w3-button {
-		width: 59%;
 	}
 	.callbacks_tabs {
 		left: 33%;
@@ -2409,13 +2373,66 @@ ul.tag2:last-child {
 		margin: 0 auto;
 	}
 }
+@media(min-width:415px) {
+
+	.areas-container .area {
+		width: calc(50% - 40px);
+		margin: 20px;
+	}
+
+	.w3ls-button {
+		float: left;
+	}
+
+	.w3l-button {
+		float: right;
+	}
+
+	.logo {
+		width: 275px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+}
 
 @media(max-width:414px) {
+
+	.insurance-type-title {
+		width: 100%;
+		text-align: center;
+	}
+
+	.w3ls-about-left a {
+		height:	 40px;
+		line-height: 40px;
+		width: 100% !important;
+		margin: 0 auto;
+		right: 0;
+		left: 0;
+	}
+
+
+	.callbacks_tabs {
+		left: 0;
+    	right: 0;
+    	text-align: center;
+	}
+
 	.w3ls-button a,
 	.w3l-button a,
 	.w3ls-about-left a {
 		padding: .2em 1em;
+		width: 130px;
+		margin-bottom: 10px;
 	}
+
+	.logo {
+		width: 120px;
+	}
+
 	.logo h1 a {
 		font-size: 1em;
 	}
@@ -2478,9 +2495,6 @@ ul.tag2:last-child {
 	}
 	.agileinfo-offer-grid p {
 		font-size: .9em;
-	}
-	.w3-button {
-		width: 63%;
 	}
 	.w3ls-about-right-img {
 		min-height: 200px;
@@ -2577,9 +2591,6 @@ ul.tag2:last-child {
 	.agileits-banner-info h3 {
 		font-size: 2em;
 		letter-spacing: 2px;
-	}
-	.w3-button {
-		width: 71%;
 	}
 	.w3ls-button a,
 	.w3l-button a,
