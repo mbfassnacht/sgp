@@ -183,6 +183,14 @@ a:hover {
 
 }
 
+.about.legal {
+	background: url(../images/contable.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
 
 .about.notary {
 	background: url(../images/notary.jpg);
