@@ -214,6 +214,13 @@ a:hover {
 	color: white !important;
 }
 
+.about.black .w3ls-about-left h2,
+.about.black .w3ls-about-left h6,
+.about.black .w3ls-about-left p,
+.about.black .w3ls-about-left ul {
+	color: black !important;
+}
+
 .agileinfo-dot,
 .agile-dot {
 	/*background: url(../images/dott.png)repeat 0px 0px;
