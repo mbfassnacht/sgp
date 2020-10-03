@@ -184,12 +184,25 @@ a:hover {
 }
 
 .about.contable {
-	background: url(../images/contable.jpg);
+	display: block;
+  	position: relative;
+}
+
+.contable::after {
+  	content: "";
+ 	background: url(../images/contable.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
 }
+
 
 
 .about.notary {
